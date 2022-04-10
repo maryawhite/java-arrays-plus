@@ -31,17 +31,7 @@ public class ReverseArrayChallenge {
         System.out.println("Reversed array = " + Arrays.toString(array));
     }
 
-
-
-    public static void main(String[] args) {
-        int[] input = {1, 2, 3, 4, 5};
-        int[] inputEven = {6, 7, 8, 9};
-        reverse(input);
-        reverse(inputEven);
-    }
-}
-
-//the code iterates through half of the array, changing the elements in symmetric positions.
+    //the code iterates through half of the array, changing the elements in symmetric positions.
 //
 //We use a temporary variable so that we don't lose the value of the current position of the array during the iteration.
 
@@ -50,3 +40,16 @@ public class ReverseArrayChallenge {
 //to reverse the array, swap the elements so the first is the last and so on
 
 //i.e. given {1, 2, 3, 4, 5} the reversed array is {5, 4, 3, 2, 1}
+
+
+
+
+
+    public static void main(String[] args) {
+//        int[] input = {1, 2, 3, 4, 5};
+//        int[] inputEven = {6, 7, 8, 9};
+//        reverse(input);
+//        reverse(inputEven);
+    }
+}
+
